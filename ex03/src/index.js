@@ -5,7 +5,7 @@ class Person {
         return message;
     }
     show() {
-        return display();
+        console.log(Person.display());
     }
 }
 // Only change code above this line
